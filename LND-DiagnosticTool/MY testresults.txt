@@ -1,0 +1,23 @@
+In Method:: createAccount
+added this line and created visauser-03     RESULT: mail file is not create in "AU-XUVZU01-LND3" , mail file created in LND1 and LND2
+cluster.add("CN=AU-XUVZU01-LND3/o=caorg");
+
+commented below line and created visauser-04   Result mail file is created in LND1 and LND2 servers.
+//reg.setMailReplicaServers(cluster);
+
+So modification in the "CreateAccount"  is not required. FYI: cluster is allready handled.
+
+
+In Method "createMailInBackground" we have added these lines.
+Results: visauser-05 has created. mail file created in LND1 and LND3 so we missed LND2 server.
+
+Vector cluster = new Vector();
+			cluster.add("CN=AU-XUVZU01-LND1/O=caorg");
+			cluster.add("CN=AU-XUVZU01-LND2/o=caorg");
+			cluster.add("CN=AU-XUVZU01-LND3/o=caorg");
+			
+Enumeration venum = cluster.elements();
+			while(venum.hasMoreElements()){
+				System.out.println(venum.nextElement());
+				relaceDocumentItem(createMail, "ProxyMailReplicaServers", venum.nextElement(), SIGNED|SUMMARY|NAMES);
+			}

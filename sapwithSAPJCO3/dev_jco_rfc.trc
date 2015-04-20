@@ -1,0 +1,459 @@
+
+**** Error file opened at 20150408 173748 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Wed Apr 08 17:37:48,217<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=sap-EP5 ASHOST=/H/nwcluster SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       service '?' unknown
+TIME        Wed Apr 08 17:37:48 2015
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+DETAIL      NiErrSet
+COUNTER     3
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20150408 173814 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Wed Apr 08 17:38:14,411<    RfcException: [null]
+    message: Parameter backend host ('ashost') is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:187)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1340)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:736)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:52)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:107)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:316)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:290)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:914)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:31)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:970)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at PreparedCodetoconnect.main(PreparedCodetoconnect.java:112)
+
+
+**** Error file opened at 20150410 120542 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 12:05:42,386<    RfcException: [null]
+    message: Parameter backend host ('ashost') is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:187)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1340)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:736)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:52)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:107)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:316)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:290)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:914)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:31)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:970)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at PreparedCodetoconnect.main(PreparedCodetoconnect.java:112)
+
+
+**** Error file opened at 20150410 120626 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 12:06:26,370<    RfcException: [null]
+    message: Parameter backend host ('ashost') is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:187)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1340)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:736)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:52)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:107)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:316)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:290)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:914)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:31)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:970)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at PreparedCodetoconnect.main(PreparedCodetoconnect.java:112)
+
+
+**** Error file opened at 20150410 122922 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 12:29:22,554<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=sap-EP5 ASHOST=nwcluster:3299 SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'nwcluster:3299' unknown
+TIME        Fri Apr 10 12:29:22 2015
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'nwcluster:3299' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20150410 123025 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 12:30:25,349<    RfcException: [null]
+    message: Parameter backend host ('ashost') is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:187)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1340)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:736)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:52)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:107)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:316)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:290)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:914)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:31)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:970)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at PreparedCodetoconnect.main(PreparedCodetoconnect.java:112)
+
+
+**** Error file opened at 20150410 123107 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 12:31:07,883<    RfcException: [null]
+    message: Parameter backend host ('ashost') is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:187)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1340)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:736)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:52)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:107)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:316)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:290)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:914)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:31)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:970)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at PreparedCodetoconnect.main(PreparedCodetoconnect.java:112)
+
+
+**** Error file opened at 20150410 123126 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 12:31:26,401<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=sap-EP5 ASHOST=/H/nwcluster/S/3299 SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.131.86.5:3299' not reached
+TIME        Fri Apr 10 12:31:26 2015
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.131.86.5:3299
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20150410 123142 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 12:31:42,587<    RfcException: [null]
+    message: Parameter backend host ('ashost') is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:187)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1340)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:736)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:52)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:107)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:316)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:290)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:914)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:31)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:970)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at PreparedCodetoconnect.main(PreparedCodetoconnect.java:112)
+
+
+**** Error file opened at 20150410 123253 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 12:32:53,353<    RfcException: [null]
+    message: Parameter backend host ('ashost') is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:187)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1340)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:736)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:52)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:107)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:316)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:290)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:914)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:31)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:970)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at PreparedCodetoconnect.main(PreparedCodetoconnect.java:112)
+
+
+**** Error file opened at 20150410 130012 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 13:00:12,007<    RfcException: [null]
+    message: Parameter backend host ('ashost') is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:187)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1340)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:736)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:52)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:107)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:316)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:290)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:914)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:31)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:970)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at PreparedCodetoconnect.main(PreparedCodetoconnect.java:112)
+
+
+**** Error file opened at 20150410 130030 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 13:00:30,048<    RfcException: [null]
+    message: Parameter backend host ('ashost') is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:187)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1340)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:736)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:52)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:107)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:316)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:290)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:914)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:31)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:970)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at PreparedCodetoconnect.main(PreparedCodetoconnect.java:112)
+
+
+**** Error file opened at 20150410 130048 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 13:00:48,383<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=sap-EP5 ASHOST=/H/nwcluster/S/3300 SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.131.86.5:3300' not reached
+TIME        Fri Apr 10 13:00:48 2015
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.131.86.5:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20150410 130112 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 13:01:12,656<    RfcException: [null]
+    message: Parameter backend host ('ashost') is missing
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:187)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1340)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:736)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:52)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:107)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:316)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:290)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:914)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:31)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:970)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at PreparedCodetoconnect.main(PreparedCodetoconnect.java:112)
+
+
+**** Error file opened at 20150410 130133 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 13:01:33,864<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=sap-EP5 ASHOST=/H/nwcluster/S/3200 SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.131.86.5:3200' broken
+TIME        Fri Apr 10 13:01:33 2015
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      gwxx.c
+LINE        646
+DETAIL      NiIRead: P=10.131.86.5:3200; L=10.134.6.241:60576
+SYSTEM CALL GwRead
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20150410 130148 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 13:01:48,660<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=sap-EP5 ASHOST=/H/nwcluster/S/3300 SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.131.86.5:3300' not reached
+TIME        Fri Apr 10 13:01:48 2015
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.131.86.5:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20150410 130207 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 13:02:07,654<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=sap-EP5 ASHOST=nwcluster:3300 SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'nwcluster:3300' unknown
+TIME        Fri Apr 10 13:02:07 2015
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'nwcluster:3300' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20150410 130225 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 13:02:25,016<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=sap-EP5 ASHOST=nwcluster.ca.com:3300 SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'nwcluster.ca.com:3300' unknown
+TIME        Fri Apr 10 13:02:25 2015
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        895
+DETAIL      NiPGetHostByName: 'nwcluster.ca.com:3300' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20150410 131914 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 13:19:14,494<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=sap-EP5 ASHOST=/H/nwcluster SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       service '?' unknown
+TIME        Fri Apr 10 13:19:14 2015
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -3
+DETAIL      NiErrSet
+COUNTER     3
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20150410 131936 India Standard Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 10 13:19:36,427<    RfcException: [null]
+    message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=sap-EP5 ASHOST=/H/nwcluster/S/3200 SYSNR=02 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.131.86.5:3200' broken
+TIME        Fri Apr 10 13:19:36 2015
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      gwxx.c
+LINE        646
+DETAIL      NiIRead: P=10.131.86.5:3200; L=10.134.6.241:61142
+SYSTEM CALL GwRead
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFC_FAILURE(1)
+    error group: 102
+    key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20150417 101036 Eastern Daylight Time Rel 3.0.9 (2012-07-19) [720.310]
+Error:  >Fri Apr 17 10:10:36,023<    >RfcGetException rc (7) message: Name or password is incorrect (repeat logon)
+<RfcGetException
+

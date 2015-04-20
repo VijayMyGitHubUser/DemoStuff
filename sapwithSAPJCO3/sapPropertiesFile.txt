@@ -1,0 +1,5 @@
+jco.client.ashost = xxxx
+jco.client.user =  xxxx
+jco.client.passwd = xxxxx           
+jco.client.sysnr = xxxx
+jco.client.client  = xxxx

@@ -1,0 +1,88 @@
+Note: TestLND.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Getting IOR from AU-XUVZU01-LND1
+Connected to the Domino server:AU-XUVZU01-LND1
+VisaUser-02
+VisaUser-02
+AU-XUVZU01-LND1
+caorg
+Creating account VisaUser-02: true
+Opening AdminP.
+Setting attributes.
+Mail creation request sent. Please check the result in Domino Administrator
+Disconnected.
+Press any key to continue . . .
+
+
+Note: TestLND.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Getting IOR from AU-XUVZU01-LND1
+Connected to the Domino server:AU-XUVZU01-LND1
+VisaUser-03
+VisaUser-03
+AU-XUVZU01-LND1
+caorg
+Creating account VisaUser-03: true
+Opening AdminP.
+Setting attributes.
+Mail creation request sent. Please check the result in Domino Administrator
+Disconnected.
+Press any key to continue . . .
+
+
+Note: TestLND.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Getting IOR from AU-XUVZU01-LND1
+Connected to the Domino server:AU-XUVZU01-LND1
+VisaUser-05
+VisaUser-05
+AU-XUVZU01-LND1
+caorg
+Creating account VisaUser-05: true
+Opening AdminP.
+Setting attributes.
+CN=AU-XUVZU01-LND1/O=caorg
+CN=AU-XUVZU01-LND3/o=caorg
+java.util.NoSuchElementException: Vector Enumeration
+java.util.NoSuchElementException: Vector Enumeration
+        at java.util.Vector$1.nextElement(Unknown Source)
+        at TestLND.createMailInBackground(TestLND.java:370)
+        at TestLND.control(TestLND.java:146)
+        at TestLND.main(TestLND.java:125)
+Disconnected.
+Press any key to continue . . .
+
+Note: TestLND.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Getting IOR from AU-XUVZU01-LND1
+Connected to the Domino server:AU-XUVZU01-LND1
+VisaUser-05
+VisaUser-05
+AU-XUVZU01-LND1
+caorg
+Creating account VisaUser-05: true
+Opening AdminP.
+Setting attributes.
+After Vector size is=2
+CN=AU-XUVZU01-LND2/o=caorg
+Mail creation request sent. Please check the result in Domino Administrator
+Disconnected.
+Press any key to continue . . .
+
+
+Note: TestLND.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Getting IOR from AU-XUVZU01-LND1
+Connected to the Domino server:AU-XUVZU01-LND1
+VisaUser-06
+VisaUser-06
+AU-XUVZU01-LND1
+caorg
+Creating account VisaUser-06: true
+Opening AdminP.
+Setting attributes.
+After Vector size is=2
+ elements is CN=AU-XUVZU01-LND3/o=caorg
+Mail creation request sent. Please check the result in Domino Administrator
+Disconnected.
+Press any key to continue . . .

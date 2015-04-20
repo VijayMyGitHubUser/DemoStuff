@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/HackthonLibs/SalesforceLibs/axiom-api-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/HackthonLibs/SalesforceLibs/axiom-impl-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/HackthonLibs/SalesforceLibs/axis2-adb-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/HackthonLibs/SalesforceLibs/axis2-kernel-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/HackthonLibs/SalesforceLibs/XmlSchema-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/HackthonLibs/SalesforceLibs/wsdl4j-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/HackthonLibs/SalesforceLibs/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/axiom-api-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/axiom-dom-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/axiom-impl-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/axis2-adb-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/axis2-adb-codegen-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/axis2-codegen-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/axis2-jaxws-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/axis2-kernel-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/axis2-mtompolicy-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/backport-util-concurrent-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/commons-fileupload-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/jaxen-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/mex-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/neethi-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/woden-api-1.0M8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/woden-impl-dom-1.0M8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/wsdl4j-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/Hackthon/Salesforce/sfdc/axis2-1.4.1/lib/XmlSchema-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kuovi01/Desktop/SForceServiceClient.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
